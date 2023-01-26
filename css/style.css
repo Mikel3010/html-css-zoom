@@ -6,6 +6,9 @@
 }
 
 /* type  */
+body{
+    font-family: 'Roboto', sans-serif;
+}
 header{
     height: 40px;
     background-color: black;
@@ -67,15 +70,57 @@ header div button{
 }
 
 /* footer  */
-
 .container-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
 }
-
 .video, .end{
     width: 200px;
 }
+.video{
+    display: flex;
+}
+.video div{
+    margin-left: 5px;
+}
+.video div button{
+    font-size: 30px;
+    margin-left: 20%;   
+}
+footer button{
+    background-color: #222;
+    border-style: none;
+    color: white;
+}
+h4{
+    color: white;
+    font-size: 14px;
+}
+.arrow{
+    margin:0px 10px 0px 10px;
+}
 
+.central{
+    display: flex;
+}
+
+.central div button{
+    font-size: 30px;  
+}
+
+.central div{
+    text-align: center;
+    margin: 0px 5px;
+}
+.end div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.red-b{
+    color: red;
+    background-color: #4a4a4a;
+    padding: 28px 10px 27px 10px;
+}
