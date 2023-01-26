@@ -4,3 +4,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* type  */
+header{
+    height: 40px;
+    background-color: black;
+}
+
+main{
+    background-color: black;
+    height: calc(100vh - 110px);
+}
+
+footer{
+    background-color: #222;
+    height: 70px;
+}
+
+/* header  */
+
+/* main  */
+
+/* footer  */
+
+
