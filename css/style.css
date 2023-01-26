@@ -14,6 +14,8 @@ header{
 main{
     background-color: black;
     height: calc(100vh - 110px);
+    display: flex;
+    justify-content: center;
 }
 
 footer{
@@ -22,9 +24,39 @@ footer{
 }
 
 /* header  */
+header div{
+    display: flex;
+    justify-content: flex-end;
+}
+header div span{
+    background-color: grey;
+    margin-right: 5px;
+}
 
 /* main  */
 
+.container{
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    height: calc(100vh -100px);
+    overflow:auto;
+}
+
+.container div{
+    width: 200px ;
+    height: 150px ;
+    background-color: aqua;
+    margin: 5px 5px 5px 5px;
+}
+
 /* footer  */
 
-
+.container-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
