@@ -54,6 +54,16 @@ header div button{
     margin: 5px 5px 5px 5px;
     background-image: url(../img/montagna-a-settembre.jpeg);
     background-size: 100% 100%;
+    position: relative;
+}
+
+.container div span{
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(74, 74, 74, 0.6);
+    padding: 5px 3px;
 }
 
 /* footer  */
@@ -68,3 +78,4 @@ header div button{
 .video, .end{
     width: 200px;
 }
+
