@@ -28,9 +28,13 @@ header div{
     display: flex;
     justify-content: flex-end;
 }
-header div span{
+header div button{
     background-color: grey;
     margin-right: 5px;
+    color: white;
+    padding: 5px 3px;
+    border-radius: 5px;
+    margin-top: 3px;
 }
 
 /* main  */
@@ -59,4 +63,8 @@ header div span{
     justify-content: space-between;
     align-items: center;
     height: 100%;
+}
+
+.video, .end{
+    width: 200px;
 }
